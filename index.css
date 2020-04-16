@@ -1,0 +1,229 @@
+nav,
+header,
+footer,{
+    display: block;
+}
+body{
+    line-height: 1;
+    margin: 0;
+    background-color: #110c11;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: black;
+}
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+
+/*####### NAV BAR #########*/
+nav{
+    width: 100%;
+    margin: 0;
+    
+}
+nav ul {
+    background-color: #110c11;
+    margin: 0;
+    padding: 0 ;
+    overflow:hidden; 
+    }
+ 
+nav ul.topnav li  {
+    list-style: none;
+    float: left;  
+}
+
+nav ul.topnav li.topnav-right {
+    float: right;
+}  
+ul.topnav a{
+    display: block;
+    min-height: 16px;
+    padding: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:none;
+    color: blueviolet;
+    
+  }
+ ul.topnav li a:hover{
+    background-color: black;
+    color:white;
+    
+}
+ ul.topnav li.dropdownIcon{
+    display: none;
+}
+
+/*######## Custom Styles #######*/
+
+#section-1-gradient{
+    background: black;
+    background: -webkit-linear-gradient( to right,black,black);
+    background: -o-linear-gradient(to right ,black,black);
+    background: -moz-linear-gradient(to right ,black,black);
+    background: linear-gradient(to right ,black,black);}
+
+div.left-margin{
+    margin-left: 30%;
+}
+
+div.right-margin{
+    margin-left: 15%;
+}
+
+
+h1.larger{
+    margin: 0;
+    color: blueviolet;
+    font-size: 56px;
+    font-family: fantasy;
+}
+ h2.color {
+    color: aliceblue;
+}
+input[type="text"]{
+    width: 200px;
+    min-width: 100px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 7px;
+    
+}
+/*container 2*/
+.section2Header{
+    font-size: 16px;
+    text-align: center;
+    color: blueviolet;
+    
+}
+div.box {
+    background-color: black;
+    box-shadow: 0 0 2px 1px blueviolet;
+    margin: 13px;
+    padding: 10px 10px 18px 10px;
+}
+.devImage {
+    text-align: center;
+     
+    
+}
+.text1 {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1;
+    color: blueviolet;
+}
+.text1 b {
+    color: aliceblue;
+}
+.learnMore{
+    text-align: center;
+}
+.learnMore a button {
+  background-color: blueviolet;
+    color: black;
+    border-radius: 7px;
+    padding: 5px 25px 5px 25px;
+    font-size: 16px;
+   margin: 16px;
+    text-decoration-line: none;
+}
+.learnMore a button:hover{
+    color: aliceblue;
+}
+
+}
+.text2 {
+    text-align: left;
+    font-size: 1.3em;
+    line-height: 1;
+    margin-left: 40px;
+}
+.text2 label {
+    color: aliceblue;
+    text-align: left;
+    font-size: 1.3em;
+    line-height: 1;
+}
+.dev2img {
+    margin-left:260px;
+}
+
+    
+/*###### MOBILE #############*/
+
+@media screen and  (max-width: 680px){
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+
+    }
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    nav ul.topnav.responsive{
+        position:relative;
+    }
+    nav ul.topnav.responsive li {
+        display: inline;
+        float:none;
+    } 
+    
+    nav ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+        }
+    
+    .col-6,.col-3,.dev2img {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    div.left-margin,
+    div.right-margin{
+    margin: 15px;    
+    }
+    .videoContainer iframe {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+    }
+    .text2, .dev2img {
+        text-align: center
+    }
+    
+}
+
+    
+

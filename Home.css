@@ -1,0 +1,342 @@
+/*########### Defaults ###########*/
+header,
+footer,{
+    display: block;
+}
+body{
+    line-height: 1;
+    margin: 0;
+    background:black;
+}
+
+
+
+/*########## Body ###########*/
+.container1 {
+    background-color: #110c11;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    margin-bottom: 25px;
+}
+ .h1 {
+     align-content:center;
+     color: blueviolet;
+     text-align: center;
+     font-size: 50px;
+     min-height: 50spx;
+
+}
+.container  {
+     width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: #110c11;
+}
+.col-6 .GenSecGreet {
+    color: aliceblue;
+}
+
+.col-6 .GenSecdes {
+    color: yellow;
+    font-size: 35px;
+    min-height: 15px;
+    font-family: 'Special Elite';
+}
+.col-6 .GenSec img {
+    margin-left: 40px;
+}
+.spacing {
+    margin: 108px;
+}
+
+.col-6 .IntSecGreet {
+    color: aliceblue;
+}
+
+.col-6 .IntSecdes {
+    color: aqua;
+    font-size: 35px;
+    min-height: 15px;
+    font-family: 'Special Elite';
+}
+.col-6 .IntSec img {
+    margin-left: 40px;
+}
+.col-6 .ExtSecGreet {
+    color: aliceblue;
+}
+
+.col-6 .ExtSecdes {
+    color: darkgray;
+    font-size: 35px;
+    min-height: 15px;
+    font-family: 'Special Elite';
+}
+.col-6 .ExtSec img {
+    margin-left: 40px;
+}
+.col-6 .EDGreet {
+    color: aliceblue;
+}
+
+.col-6 .EDdes {
+    color: yellowgreen;
+    font-size: 35px;
+    min-height: 15px;
+    font-family: 'Special Elite';
+}
+.col-6 .ED img {
+    margin-left: 40px;
+}
+
+.col-6 .DHGreet {
+    color: aliceblue;
+}
+
+.col-6 .DHdes {
+    color: slateblue;
+    font-size: 35px;
+    min-height: 15px;
+    font-family: 'Special Elite';
+}
+.col-6 .DH img {
+    margin-left: 40px;
+}
+
+.col-6 .HCGreet {
+    color: aliceblue;
+}
+
+.col-6 .HCdes {
+    color: orange;
+    font-size: 35px;
+    min-height: 15px;
+    font-family: 'Special Elite';
+}
+.col-6 .HC img {
+    margin-left: 40px;
+}
+
+.col-6 .THGreet {
+    color: aliceblue;
+}
+
+.col-6 .THdes {
+    color: teal;
+    font-size: 35px;
+    min-height: 15px;
+    font-family: 'Special Elite';
+}
+.col-6 .TH img {
+    margin-left: 40px;
+}
+
+.col-6 .PRGreet {
+    color: aliceblue;
+}
+
+.col-6 .PRdes {
+    color: coral;
+    font-size: 35px;
+    min-height: 15px;
+    font-family: 'Special Elite';
+}
+.col-6 .PR img {
+    margin-left: 40px;
+}
+
+.col-6 .MHGreet {
+    color: aliceblue;
+}
+
+.col-6 .MHdes {
+    color: firebrick;
+    font-size: 35px;
+    min-height: 15px;
+    font-family: 'Special Elite';
+}
+.col-6 .MH img {
+    margin-left: 40px;
+}
+
+
+.col-6 .FHGreet {
+    color: aliceblue;
+}
+
+.col-6 .FHdes {
+    color: darkorchid;
+    font-size: 35px;
+    min-height: 15px;
+    font-family: 'Special Elite';
+}
+.col-6 .FH img {
+    margin-left: 40px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+
+
+
+/*############### Moible ###################*/
+@media screen and  (max-width: 680px) {
+
+    .col-6 {
+    width: 100%;
+}
+
+    .GenSec{
+        text-align: center;
+    }
+    .col-6 .GenSec img {
+        margin: 0;
+    }
+    .col-6 .GenSecdes{
+        font-size: 25px;
+    }
+    .IntSec{
+        text-align: center;
+    }
+    .col-6 .IntSec img {
+        margin: 0;
+    }
+    .col-6 .IntSecdes{
+        font-size: 25px;
+    }
+    .ExtSec{
+        text-align: center;
+    }
+    .col-6 .ExtSec img {
+        margin: 0;
+    }
+    .col-6 .ExtSecdes{
+        font-size: 25px;
+    }
+    
+    .ED{
+        text-align: center;
+    }
+    .col-6 .ED img {
+        margin: 0;
+    }
+    .col-6 .EDdes{
+        font-size: 25px;
+    }
+
+    .DH{
+        text-align: center;
+    }
+    .col-6 .DH img {
+        margin: 0;
+    }
+    .col-6 .DHdes{
+        font-size: 25px;
+    }
+    
+    .HC{
+        text-align: center;
+    }
+    .col-6 .HC img {
+        margin: 0;
+    }
+    .col-6 .HCdes{
+        font-size: 25px;
+    }
+    
+    .TH{
+        text-align: center;
+    }
+    .col-6 .TH img {
+        margin: 0;
+    }
+    .col-6 .THdes{
+        font-size: 25px;
+    }
+    
+    .PR{
+        text-align: center;
+    }
+    .col-6 .PR img {
+        margin: 0;
+    }
+    .col-6 .PRdes{
+        font-size: 25px;
+    }
+    
+    .MH{
+        text-align: center;
+    }
+    .col-6 .MH img {
+        margin: 0;
+    }
+    .col-6 .MHdes{
+        font-size: 25px;
+    }
+    
+    .FH{
+        text-align: center;
+    }
+    .col-6 .FH img {
+        margin: 0;
+    }
+    .col-6 .FHdes{
+        font-size: 25px;
+    }
+    
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
